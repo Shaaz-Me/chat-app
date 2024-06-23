@@ -34,13 +34,13 @@ const Chats = () => {
           }
         })
       });
-
-      return () => {
-        unsub();
-      };
+      return unsub;
     };
-
-    currentUser.uid && getChats();
+    
+    const unSub = currentUser.uid? getChats(): null;
+    return () => {
+      if(unSub) unSub();
+    };
   }, [currentUser.uid]);
 
   const handleSelect = (u) => {
