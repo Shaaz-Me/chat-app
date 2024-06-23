@@ -1,5 +1,5 @@
 # Update
 
-After the new update of React, you won't be able to use CRA. But you can easily create your applications with Vite before following the video tutorial.
+I have took the reference for the UI from the below repository
 
-[Create a React App with Vite](https://github.com/safak/youtube23/tree/react-mini)
+[Reference](https://github.com/safak/youtube2022/tree/react-chat)
